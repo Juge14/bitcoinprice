@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import axios from 'axios'
 import ChartComponent from './chart/Chart'
-import StatsPanel from './Statspanel'
+import StatsPanel from './StatsPanel'
 
 function App() {
   const [date, setDate] = useState({ start: "", end: "" })
