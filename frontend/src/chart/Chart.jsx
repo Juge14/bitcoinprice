@@ -20,7 +20,7 @@ function ChartComponent({ prices }) {
       }
     },
     tooltip: {
-      x: { format: "dd mmm yyyy HH:mm" }
+      x: { format: "dd MMM yyyy HH:mm" }
     }
   }
 
